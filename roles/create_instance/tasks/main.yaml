@@ -2,10 +2,10 @@
   ec2_elb_lb:
     name: "{{ ELBNAME }}"
     state: present
-    region: us-west-1
+    region: us-east-2
     zones:
-      - us-west-1a
-      - us-west-1b
+      - us-east-2a
+      - us-east-2b
     listeners:
       - protocol: http
         load_balancer_port: 80
