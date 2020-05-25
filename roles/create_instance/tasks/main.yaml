@@ -3,6 +3,9 @@
     name: "{{ ELBNAME }}"
     state: present
     region: us-west-1
+    zones:
+      - us-west-1a
+      - us-west-1c
     listeners:
       - protocol: http
         load_balancer_port: 80
