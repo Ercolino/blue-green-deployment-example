@@ -16,7 +16,7 @@
   ec2:
     key_name: jenkins_demo
     instance_type: t2.micro
-    image: ami-05d7ab19b28efa213 
+    image: ami-0f56279347d2fa43e 
     user_data: "{{ USERDATA }}"
     region: us-west-1
     group_id:
