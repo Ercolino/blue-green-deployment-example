@@ -17,7 +17,7 @@
     instance_type: t2.micro
     image: ami-0f56279347d2fa43e 
     user_data: "{{ USERDATA }}"
-    region: us-west-1
+    region: us-east-2
     group_id:
       - sg-059103fd6d0ac9fd4
     wait: yes
